@@ -1,0 +1,64 @@
+body {
+  background: #e0e0eb;
+}
+
+#banner_image{
+    padding-top: 75px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('../img/intro-bg_2.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#banner_content{
+   position: relative;
+   padding-top: 6%;
+   padding-bottom: 6%;
+   /* margin-top: 12%;
+   margin-bottom: 12%; */
+   margin: 12% auto;
+   background-color: rgba(0,0,0,0.7);
+   max-width: 800px;
+   margin-left: 1px;
+}
+
+footer{
+    padding: 10px 0;
+    background-color: #29293d;
+    color: #9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+
+/* login property */
+.row_style {
+        margin-top: 10px;
+ }
+.loginbox{
+    margin-top: 85px;
+}
+ /* login property ends */
+
+
+.socialmedia ul {
+  list-style: none;
+}
+
+.socialmedia ul li {
+  display: inline;
+}
+
+.socialmedia ul li a {
+  margin-left: 5px;
+  padding: 6px;
+  background: #444;
+  color: #fff;
+  display:inline-block;
+  border-radius: 20px;
+}
+
+.socialmedia ul li a:hover {
+  background: orange;
+}
+
